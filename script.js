@@ -81,7 +81,7 @@ const sections = [
         title: 'First iPad CRM SaaS Application at SAP',
         description:
           'Led the development of SAP’s first iPad CRM, improving adoption and performance.',
-        link: 'https://www.linkedin.com/in/mariolinge/',
+        link: 'https://apps.apple.com/us/app/sap-cloud-for-customer/id985812159?platform=ipad',
         background:
           'https://images.unsplash.com/photo-1520962912085-2b56b48b0263?auto=format&fit=crop&q=80&w=800',
       },
