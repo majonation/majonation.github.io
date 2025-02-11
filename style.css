@@ -309,6 +309,13 @@ h1 {
     rgba(156, 163, 175, 0.4) 100%
   );
 }
+.project-card-color-4::before {
+  background: linear-gradient(
+    135deg,
+    #db60fa 0%,
+    rgba(156, 163, 175, 0.4) 100%
+  );
+}
 
 .project-card::before {
   content: '';

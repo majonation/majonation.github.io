@@ -27,52 +27,6 @@ const sections = [
     ],
   },
   {
-    title: 'SaaS & Scalable System Design',
-    subtitle:
-      'Building robust, enterprise-grade platforms with security, scalability, and efficiency.',
-    projects: [
-      {
-        title: 'HR SaaS Platform for Fortune 500 Companies',
-        description:
-          'Co-founded and scaled Flashbrand to 250,000+ users, reducing operational costs by 30% and increasing revenue by 200%.',
-        link: 'https://www.linkedin.com/in/mariolinge/',
-        background:
-          'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800',
-      },
-      {
-        title: 'Scalable CI/CD & Real-time Analytics',
-        description:
-          'Designed cloud-based architecture with automated CI/CD and real-time monitoring, boosting system reliability by 25%.',
-        link: 'https://www.linkedin.com/in/mariolinge/',
-        background:
-          'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=800',
-      },
-    ],
-  },
-  {
-    title: 'Mobile & Wearable Innovation',
-    subtitle:
-      'Enhancing user experiences through mobile-first and cross-platform solutions.',
-    projects: [
-      {
-        title: 'First iPad CRM SaaS Application at SAP',
-        description:
-          'Led the development of SAP’s first iPad CRM, improving adoption and performance.',
-        link: 'https://www.linkedin.com/in/mariolinge/',
-        background:
-          'https://images.unsplash.com/photo-1520962912085-2b56b48b0263?auto=format&fit=crop&q=80&w=800',
-      },
-      {
-        title: 'Mobile & Progressive Web Applications',
-        description:
-          'Built advanced iOS and PWA solutions, driving engagement and seamless cross-platform experiences.',
-        link: 'https://www.linkedin.com/in/mariolinge/',
-        background:
-          'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
-      },
-    ],
-  },
-  {
     title: 'Leadership & Team Growth',
     subtitle:
       'Scaling high-performing teams and aligning technical execution with business goals.',
@@ -95,6 +49,70 @@ const sections = [
       },
     ],
   },
+  {
+    title: 'SaaS & Scalable System Design',
+    subtitle:
+      'Building robust, enterprise-grade platforms with security, scalability, and efficiency.',
+    projects: [
+      {
+        title: 'HR SaaS Platform for Fortune 500 Companies',
+        description:
+          'Co-founded and scaled Flashbrand to 250,000+ users, reducing operational costs by 30% and increasing revenue by 200%. Successfully exited by selling the company to NEOBRAIN in 2023',
+        link: 'https://www.prnewswire.com/news-releases/neobrain-acquires-san-francisco-based-hr-performance-company-flashbrand-to-strengthen-its-ai-powered-talent-management-solution-and-establish-itself-in-the-us-301843248.html?utm_source=chatgpt.com',
+        background:
+          'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800',
+      },
+      {
+        title: 'Scalable CI/CD & Real-time Analytics',
+        description:
+          'Designed cloud-based architecture with automated CI/CD and real-time monitoring, boosting system reliability by 25%.',
+        link: 'https://www.linkedin.com/in/mariolinge/',
+        background:
+          'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=800',
+      },
+    ],
+  },
+  {
+    title: 'Mobile Innovation',
+    subtitle:
+      'Enhancing user experiences through mobile-first and cross-platform solutions.',
+    projects: [
+      {
+        title: 'First iPad CRM SaaS Application at SAP',
+        description:
+          'Led the development of SAP’s first iPad CRM, improving adoption and performance.',
+        link: 'https://www.linkedin.com/in/mariolinge/',
+        background:
+          'https://images.unsplash.com/photo-1520962912085-2b56b48b0263?auto=format&fit=crop&q=80&w=800',
+      },
+      {
+        title: 'Mobile & Progressive Web Applications',
+        description:
+          'Built advanced iOS and PWA solutions, driving engagement and seamless cross-platform experiences.',
+        link: 'https://www.linkedin.com/in/mariolinge/',
+        background:
+          'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
+      },
+    ],
+  },
+  {
+    title: ' Wearable Innovation',
+    subtitle:
+      'Experimenting with newest wearable technologies.',
+    projects: [
+      {
+        title: 'First SAP Apple Watch App',
+        description:
+          'The Red Dot Award-winning project "SAP Perfect Meeting with Customer" is a smartwatch application that provides sales representatives with timely and relevant customer information during meetings.',
+        link: 'https://www.red-dot.org/project/sap-perfect-meeting-with-customer-14930',
+        background:
+          'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
+      },
+    ],
+  },
+
+ 
+
 ];
 // Initialize page
 document.addEventListener('DOMContentLoaded', () => {
